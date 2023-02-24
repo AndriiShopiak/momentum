@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    transition: all .5s ease-in-out;
+}
+/* ---HEADER--------------------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0px 0px 0px;
+}
+.header .player__buttons img {
+    cursor: pointer;
+}
+.header__player {
+    
+}
+.player {
+}
+.player_song_title {
+}
+.song_title {
+}
+.song_title_header {
+    text-align: center;
+}
+.player_progress {
+    margin: 10px 0px 10px 0px;
+}
+
+.progress_block {
+    border: 1px solid rgb(255, 255, 255);
+    height: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.progress_block_progress {
+    background: silver;
+    height: 100%;
+    width: 0%;
+}
+.progress__time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.player__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player__buttons__button {
+    
+}
+.player_volume {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player__list {
+    padding-left: 15px;
+}
+.player__list__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.player__list__item {
+    display: flex;
+    align-items: center;
+}
+.player__list__item img {
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.header__weather div{
+    margin-top: 10px;
+}
+.weather {
+}
+.weather__input {
+    border: none;
+    outline: none;
+    line-height: 24px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+.weather-icon {
+    font-size: 60px;
+}
+.owf {
+}
+.temperature {
+    display: inline;
+}
+.weather-description {
+    display: inline;
+}
+/* ---Date---------------------------------- */
+.time_content {
+    text-align: center;
+    margin-top: 20px;
+}
+.time {
+    font-size: 100px;
+    font-weight: 600;
+
+}
+.date {
+    font-size: 30px;
+}
+.greeting_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.greeting_content .greeting__text {
+    font-size: 40px;
+}
+.input_name_greeting {
+    max-width: 240px;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    font-size: 40px;
+    color: #fff;
+}
+@media (max-width: 1600px) {
+    .time_content {
+        margin-top: -100px;
+    }
+}
+/* List---BG--Section */
+.list_bg_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.list_bg_buttons svg {
+    cursor: pointer;
+}
+/* QUOTES ---------------------- */
+.quotes {
+    padding: 20px 0px 0px 0px;
+}
+.quotes_content {
+    text-align: center;
+}
+.quotes_icon {
+    text-align: center;
+}
+.quotes_icon img {
+    width: 50px;
+    cursor: pointer;
+}
+.quotes_text {
+    font-size: 20px;
+}
+.quotes_author {
+    margin-top: 10px;
+    font-style: italic;
+}
+/* Settings */
+ 
+.settings {
+}
+.settings_content {
+}
+.settings_content__icon img {
+    cursor: pointer;
+    width: 50px;
+}
+.settings_content_menu {
+}
+.language {
+    cursor: pointer;
+}
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/owfont-regular.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>momentum</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__player player">
+            <div class="player_song_title song_title">
+                <h2 class="song_title_header">Aqua Caelestis</h2>
+            </div>
+            <div class="player_progress progress">
+                <div class="progress_block">
+                    <div class="progress_block_progress"></div>
+                </div>
+                <div class="progress__time">
+                    <div class="current__time">00:00</div>
+                    <div class="duration__time">00:00</div>
+                </div>
+            </div>
+            <div class="player__buttons">
+                <div class="player__buttons__button">
+                    <img class="prew_button" src="assets/svg/play-prew.svg" alt="play-prew">
+                </div>
+                <div class="player__buttons__button">
+                    <img class="play_button" src="assets/svg/play.svg" alt="play">
+                </div>
+                <div class="player__buttons__button">
+                    <img class="next_button" src="assets/svg/play-next.svg" alt="play-next">
+                </div>
+            </div>
+            <div class="player_volume">
+                <img src="assets/svg/volume1.svg" alt="volume" class="volume_svg">
+                <input type="range" class="volume__level">
+            </div>
+            <div class="player__list">
+                <div class="player__list__item">
+                    <img class="play_button_list" src="assets/svg/play.svg" alt="play">
+                    <span class="song_name">Aqua Caelestis</span>
+                </div>
+                <div class="player__list__item">
+                    <img class="play_button_list" src="assets/svg/play.svg" alt="play">
+                    <span class="song_name">River Flows In You</span>
+                </div>
+                <div class="player__list__item">
+                    <img class="play_button_list" src="assets/svg/play.svg" alt="play">
+                    <span class="song_name">Una Mattina</span>
+                </div>
+                <div class="player__list__item">
+                    <img class="play_button_list" src="assets/svg/play.svg" alt="play">
+                    <span class="song_name">Ennio Morricone</span>
+                </div>
+            </div>
+        </div>
+        <div class="header__weather weather">
+            <input type="text" class="weather__input"><br>
+            <i class="weather-icon owf"></i><br>
+            <div class="temperature"></div>
+            <div class="weather-description"></div>
+            <div class="wind"></div>
+            <div class="humidity"></div>
+        </div> 
+    </header>
+    <main class="main">
+        <section class="time_date_section">
+            <div class="time_content">
+                <time class="time">00:00:00</time><br>
+                <date class="date"></date>
+            </div>
+        </section>
+        <section class="greeting">
+            <div class="greeting_content">
+                <div class="greeting__text"></div>
+                <input type="text" placeholder="[Enter name]" class="input_name_greeting">
+            </div>
+        </section>
+        <section class="list_bg_buttons">
+            <svg class="left_arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <title>arrow_back_ios</title>
+                <path fill="#fff" d="M31.125 10.375l-21.625 21.625 21.625 21.625-4.75 4.75-26.375-26.375 26.375-26.375z"></path>
+            </svg>
+            <svg class="right_arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                <title>arrow_forward_ios</title>
+                <path fill="#fff" d="M15.625 11l5.75-5.625 26.625 26.625-26.625 26.625-5.75-5.625 21.125-21z"></path>
+            </svg>
+        </section>
+        <section class="quotes">
+            <div class="quotes_content">
+                <div class="quotes_icon">
+                    <img src="assets/svg/refresh.svg" class="refreshIcon" alt="refresh">
+                </div>
+                <div class="quotes_text"></div>
+                <div class="quotes_author"></div>
+            </div>
+        </section>
+        <section class="settings">
+            <div class="settings_content">
+                <div class="settings_content__icon">
+                    <img src="assets/svg/settings.svg" class="settings_icon" alt="settings">
+                </div>
+                <div class="settings_content_menu">
+                    <div class="language">Language: EN</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
